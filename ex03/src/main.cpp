@@ -18,5 +18,6 @@ int main()
 		pikachu.attack();
 		club.setType("some other type of club");
 		pikachu.attack();
+		std::cout << club.getType() << std::endl;
 	}
 }

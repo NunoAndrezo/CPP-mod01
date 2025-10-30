@@ -28,13 +28,6 @@ OBJ			=	$(addprefix $(OBJ_DIR), $(OBJ_FILES))
 
 #all rule
 all: $(NAME)
-#	@printf "\n"
-#	@printf "$(GREEN)            ___ ___          ___    _____    _     _   \n$(RESET)"
-#	@printf "$(GREEN) ___ _ _   |   |_  |     ___|  _|  |    _| _| |_ _| |_ \n$(RESET)"
-#	@printf "$(GREEN)| -_|_'_|  | | |_| |_   | . |  _|  |   |_ |_   _|_   _|\n$(RESET)"
-#	@printf "$(GREEN)|___|_,_|  |___|_____|  |___|_|    |_____|  |_|   |_|  \n$(RESET)"
-#	@printf "$(GREEN)                                                       \n$(RESET)"
-#	@printf "\n"
 
 #compile the executable
 $(NAME): $(OBJ)
